@@ -1,0 +1,9 @@
+%%
+clear
+k=[1:99];
+a=sin(pi*k/2)./(pi*k);
+E=2*sum(a.*a);
+%%
+e=2*a.*a;
+en=cumsum(e);
+plot(k,en);xlabel('k');ylabel('En');

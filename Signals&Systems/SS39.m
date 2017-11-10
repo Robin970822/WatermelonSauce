@@ -1,0 +1,22 @@
+%%
+clear;
+b=1;
+a=[1 1];
+t=linspace(0,20,1000);
+x=cos(t);
+y=lsim(b,a,x,t);
+figure;
+subplot(2,1,1);
+plot(t(501:1000),x(501:1000));xlabel('t');ylabel('x(t)');
+subplot(2,1,2);
+plot(t(501:1000),y(501:1000));xlabel('t');ylabel('y(t)');
+%%
+x2=cos(t);
+x2(x2>0)=ones(size(x2(x2>0)));
+x2(x2<0)=-ones(size(x2(x2<0)));
+y=lsim(b,a,x2,t);
+figure;
+subplot(2,1,1);
+plot(t(501:1000),x2(501:1000));xlabel('t');ylabel('x(t)');
+subplot(2,1,2);
+plot(t(501:1000),y(501:1000));xlabel('t');ylabel('y(t)');

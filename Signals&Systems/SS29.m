@@ -1,0 +1,19 @@
+%%
+t=[-1:0.05:4];
+h=exp(-3*t).*SSu(t);
+s=(1/3)*(1-exp(-3*t)).*SSu(t);
+figure;
+plot(t,h);xlabel('t');ylabel('h(t)');
+figure;
+plot(t,s);xlabel('t');ylabel('s(t)');
+%%
+clear;
+t=[0:0.05:4];
+a=[1 3];
+b=1;
+h=impulse(b,a,t);
+s=step(b,a,t);
+figure;
+plot(t,h);xlabel('t');ylabel('h(t)');
+figure;
+plot(t,s);xlabel('t');ylabel('s(t)');
