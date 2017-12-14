@@ -57,7 +57,7 @@ public final class PicCompress{
 	 * @param lastSegPixNum 输入参数，最后一个分段像素个数
 	 * @param bitNumForLastSeg 输入参数，最后一个分段所需存储位数
 	 * @param seg 输出参数，各分段中的像素数量
-	 * @param bitsForEachSeg输出参数，各分段中的每个像素所需存储位数
+	 * @param bitsForEachSeg 输出参数，各分段中的每个像素所需存储位数
 	 */
 	public static void traceback(int pixelNum, int[] lastSegPixNum, int[] bitNumForLastSeg, int[] seg, int[] bitsForEachSeg){
 		if(pixelNum == 0) return;
