@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e744f8ca-f135-4143-b6ad-ab8b7719dacf" name="Default" comment="" />
+    <list default="true" id="adae50fc-9a81-4588-ad53-3c253eb4fbb1" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,37 +10,35 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ErrorTreeViewConfiguration">
-    <option name="hideWarnings" value="true" />
-    <option name="HIDE_WARNINGS" value="true" />
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Travel.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../Algorithm/ex3/src/Travel.java">
+    <leaf>
+      <file leaf-file-name="SortTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ex2/src/SortTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="643">
-              <caret line="102" column="23" lean-forward="false" selection-start-line="102" selection-start-column="23" selection-end-line="102" selection-end-column="23" />
+            <state relative-caret-position="626">
+              <caret line="55" column="25" lean-forward="true" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
               <folding>
-                <element signature="method#Traveling#0;class#Traveling#0" expanded="false" />
+                <element signature="docComment;class#SortTest#0" expanded="true" />
+                <element signature="e#377#430#0" expanded="true" />
+                <element signature="docComment;method#testSelectionSort#0;class#SortTest#0" expanded="true" />
+                <element signature="docComment;method#testBubbleSort#0;class#SortTest#0" expanded="true" />
+                <element signature="docComment;method#testInsertSort#0;class#SortTest#0" expanded="true" />
+                <element signature="docComment;method#testMergeSort#0;class#SortTest#0" expanded="true" />
+                <element signature="docComment;method#testQuickSort#0;class#SortTest#0" expanded="true" />
+                <element signature="docComment;method#testRandomArray#0;class#SortTest#0" expanded="true" />
+                <element signature="docComment;method#testSortedArray#0;class#SortTest#0" expanded="true" />
+                <element signature="docComment;method#testReversedArray#0;class#SortTest#0" expanded="true" />
+                <element signature="docComment;method#reverse#0;class#SortTest#0" expanded="true" />
+                <element signature="docComment;method#testArray#0;class#SortTest#0" expanded="true" />
+                <marker date="1513828701515" expanded="false" signature="6622:6698" ph="/**...*/" />
+                <marker date="1513828701515" expanded="false" signature="6865:7070" ph="/**...*/" />
+                <marker date="1513828701515" expanded="false" signature="7318:7448" ph="/**...*/" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>\/\*\*\n \* This class use for common computing\n \*\n \* \@author\n \* \@version\n \*\/\n\npublic final class MyComputer\{\n\n    \/\*\*\n     \* 阶乘计算递归实现\n     \* \@param n\&gt;\=0\n     \* \@return n\!\n     \*\/\n    public static long factorialRec\(int n\)\{\n        if\( n\=\=1\)\{\n            return 1\;\n        \}\n        return 0\;\n    \}\n\n    \/\*\*\n     \* 阶乘计算迭代实现\n     \* \@param n\&gt;\=0\n     \* \@return n\!\n     \*\/\n    public static long factorialNRec\(int n\)\{\n        return 0\;\n    \}\n\n    \/\*\*\n     \* Fibonacci数列计算递归实现\n     \* \@param n\&gt;\=0\n     \* \@return fibonacci value of n\n     \*\/\n    public static int fibonacciRec\(int n\)\{\n        return 0\;\n    \}\n\n    \/\*\*\n     \* Fibonacci数列计算迭代实现\n     \* \@param n\&gt;\=0\n     \* \@return fibonacci value of n\n     \*\/\n    public static int fibonacciIter\(int n\)\{\n        return 0\;\n    \}\n\n    public static void main\(String\[\] args\)\{\n\n        long begin1 \= System\.currentTimeMillis\(\)\;\n        System\.out\.println\(factorialRec\(20\)\)\;\n        long end1 \= System\.currentTimeMillis\(\)\;\n        System\.out\.println\(\&quot;Recursive computing time\: \&quot; \+ \(end1 \- begin1\) \+ \&quot;毫秒\&quot;\)\;\n\n        long begin2 \= System\.currentTimeMillis\(\)\;\n        System\.out\.println\(factorialNRec\(20\)\)\;\n        long end2 \= System\.currentTimeMillis\(\)\;\n        System\.out\.println\(\&quot;Iterative computing time\: \&quot; \+ \(end2 \- begin2\) \+ \&quot;毫秒\&quot;\)\;\n\n        long begin3 \= System\.currentTimeMillis\(\)\;\n        System\.out\.println\(fibonacciRec\(45\)\)\;\n        long end3 \= System\.currentTimeMillis\(\)\;\n        System\.out\.println\(\&quot;Recursive computing time\: \&quot; \+ \(end3 \- begin3\) \+ \&quot;毫秒\&quot;\)\;\n\n        long begin4 \= System\.currentTimeMillis\(\)\;\n        System\.out\.println\(fibonacciIter\(45\)\)\;\n        long end4 \= System\.currentTimeMillis\(\)\;\n        System\.out\.println\(\&quot;Iterative computing time\: \&quot; \+ \(end4 \- begin4\) \+ \&quot;毫秒\&quot;\)\;\n    \}\n\}</find>
-    </findStrings>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -49,28 +48,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../Algorithm/ex1/ex1.iml" />
-        <option value="$PROJECT_DIR$/../Algorithm/ex1/src/MyComputer.java" />
-        <option value="$PROJECT_DIR$/../Algorithm/ex1/src/MyStringClass.java" />
-        <option value="$PROJECT_DIR$/../Algorithm/ex1/src/ChosePoints.java" />
-        <option value="$PROJECT_DIR$/../Algorithm/ex2/src/IntegerPartition.java" />
-        <option value="$PROJECT_DIR$/../Algorithm/ex2/src/Search.java" />
-        <option value="$PROJECT_DIR$/../Algorithm/ex3/src/MatrixChain.java" />
-        <option value="$PROJECT_DIR$/../Algorithm/ex3/src/Investment.java" />
-        <option value="$PROJECT_DIR$/../Algorithm/ex3/src/Knapsack.java" />
-        <option value="$PROJECT_DIR$/../Algorithm/ex3/src/Dijkstra.java" />
-        <option value="$PROJECT_DIR$/../Algorithm/ex1/src/Sort.java" />
-        <option value="$PROJECT_DIR$/../Algorithm/ex2/src/test/sort/Sort.java" />
-        <option value="$PROJECT_DIR$/../Algorithm/ex2/src/test/sort/SortTest.java" />
-        <option value="$PROJECT_DIR$/../Algorithm/ex2/src/test/SortTest.java" />
-        <option value="$PROJECT_DIR$/../Algorithm/ex2/src/Perm.java" />
-        <option value="$PROJECT_DIR$/../Algorithm/ex3/src/PicCompress.java" />
-        <option value="$PROJECT_DIR$/../Algorithm/ex3/src/ShortPath.java" />
-        <option value="$PROJECT_DIR$/../Algorithm/ex3/src/Load.java" />
-        <option value="$PROJECT_DIR$/../Algorithm/ex2/src/SortTest.java" />
-        <option value="$PROJECT_DIR$/../Algorithm/ex3/src/Placing.java" />
-        <option value="$PROJECT_DIR$/../Algorithm/ex2/src/Sort.java" />
-        <option value="$PROJECT_DIR$/../Algorithm/ex3/src/Travel.java" />
+        <option value="$PROJECT_DIR$/ex2/src/SortTest.java" />
       </list>
     </option>
   </component>
@@ -81,13 +59,12 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="140" />
-    <option name="y" value="7" />
-    <option name="width" value="1403" />
+    <option name="x" value="-11" />
+    <option name="width" value="1150" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="PackagesPane" proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -101,45 +78,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Algorithm" type="58d84e3e:PackageViewProjectNode" />
-              <item name="ex1" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="58d84e3e:PackageViewProjectNode" />
-              <item name="ex2" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="58d84e3e:PackageViewProjectNode" />
-              <item name="ex3" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="58d84e3e:PackageViewProjectNode" />
-              <item name="ex3" type="616d4139:PackageViewModuleNode" />
-              <item name="Travel.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ex1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ex1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="ex2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -147,54 +92,19 @@
               <item name="ex2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="ex1" type="cbb8eebc:String" user="ex1" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="ex1" type="cbb8eebc:String" user="ex1" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="last_opened_file_path" value="F:/作业/分布式/src&amp;tools/Socket" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/../Algorithm/ex2/src" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="test.sort" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Algorithm\ex1\src" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -208,77 +118,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Sort">
-    <configuration name="Load" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Load" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Algorithm" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ex3" />
-      <envs />
-    </configuration>
-    <configuration name="Placing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Placing" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Algorithm" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ex3" />
-      <envs />
-    </configuration>
-    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Sort" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Algorithm" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ex2" />
-      <envs />
-    </configuration>
-    <configuration name="SortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SortTest.testSelectionSort">
+    <configuration name="SortTest.testSelectionSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="ex2" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SortTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="SortTest.testQuickSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="ex2" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SortTest" />
-      <option name="METHOD_NAME" value="testQuickSort" />
+      <option name="METHOD_NAME" value="testSelectionSort" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -303,7 +151,7 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -372,129 +220,64 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.SortTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.SortTest.testQuickSort" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Load" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Sort" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Placing" />
-    </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Sort" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Placing" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SortTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Load" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.SortTest.testQuickSort" />
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SortTest.testSelectionSort" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e744f8ca-f135-4143-b6ad-ab8b7719dacf" name="Default" comment="" />
-      <created>1509969923032</created>
+      <changelist id="adae50fc-9a81-4588-ad53-3c253eb4fbb1" name="Default" comment="" />
+      <created>1513828627572</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1509969923032</updated>
-      <workItem from="1509969927286" duration="9398000" />
-      <workItem from="1510105150548" duration="2624000" />
-      <workItem from="1510197296711" duration="1604000" />
-      <workItem from="1510296110214" duration="732000" />
-      <workItem from="1510386552750" duration="46000" />
-      <workItem from="1510540300526" duration="4987000" />
-      <workItem from="1510584698598" duration="820000" />
-      <workItem from="1510647211317" duration="68000" />
-      <workItem from="1511145522536" duration="1975000" />
-      <workItem from="1511403265258" duration="628000" />
-      <workItem from="1512008036796" duration="2479000" />
-      <workItem from="1512098732170" duration="13000" />
-      <workItem from="1512354132194" duration="2832000" />
-      <workItem from="1512612847839" duration="4251000" />
-      <workItem from="1512781426097" duration="2546000" />
-      <workItem from="1512783997599" duration="6095000" />
-      <workItem from="1512791301292" duration="5217000" />
-      <workItem from="1512799737048" duration="1832000" />
-      <workItem from="1512811335587" duration="323000" />
-      <workItem from="1512812330078" duration="279000" />
-      <workItem from="1512871557855" duration="2521000" />
-      <workItem from="1512958596934" duration="6207000" />
-      <workItem from="1513174209378" duration="2630000" />
-      <workItem from="1513218992896" duration="1570000" />
-      <workItem from="1513221275062" duration="2588000" />
+      <updated>1513828627572</updated>
+      <workItem from="1513828633289" duration="114000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SortTest - 2017.12.11 at 10h 38m 40s.xml">
-      <configuration name="SortTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SortTest - 2017.12.11 at 10h 38m 51s.xml">
-      <configuration name="SortTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SortTest - 2017.12.11 at 10h 39m 10s.xml">
-      <configuration name="SortTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SortTest - 2017.12.11 at 10h 39m 30s.xml">
-      <configuration name="SortTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SortTest - 2017.12.11 at 10h 39m 34s.xml">
-      <configuration name="SortTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SortTest - 2017.12.11 at 10h 39m 50s.xml">
-      <configuration name="SortTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SortTest - 2017.12.11 at 10h 40m 09s.xml">
-      <configuration name="SortTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SortTest - 2017.12.11 at 11h 04m 07s.xml">
-      <configuration name="SortTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SortTest - 2017.12.11 at 11h 04m 32s.xml">
-      <configuration name="SortTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SortTest - 2017.12.11 at 11h 11m 01s.xml">
-      <configuration name="SortTest" configurationId="JUnit" />
+    <history-entry file="SortTest_testSelectionSort - 2017.12.21 at 11h 59m 05s.xml">
+      <configuration name="SortTest.testSelectionSort" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64265000" />
+    <option name="totallyTimeSpent" value="114000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24282561" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1296875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.196468" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1359375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41721854" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -504,645 +287,30 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../Algorithm/ex2/src/Sort.java</url>
-          <line>324</line>
-          <properties />
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../Algorithm/ex2/src/Sort.java</url>
-          <line>32</line>
-          <properties />
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../Algorithm/ex2/src/Sort.java</url>
-          <line>198</line>
-          <properties />
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../Algorithm/ex2/src/Sort.java</url>
-          <line>270</line>
-          <properties />
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../Algorithm/ex2/src/Sort.java</url>
-          <line>271</line>
-          <properties />
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../Algorithm/ex2/src/Sort.java</url>
-          <line>274</line>
-          <properties />
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../Algorithm/ex2/src/Sort.java</url>
-          <line>280</line>
-          <properties />
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../Algorithm/ex2/src/Sort.java</url>
-          <line>282</line>
-          <properties />
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/../Algorithm/ex2/src/Sort.java</url>
-          <line>196</line>
-          <properties class="Sort" method="quickSort">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/../Algorithm/ex2/src/Sort.java</url>
-          <line>265</line>
-          <properties class="Sort" method="partition">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="40" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex3/src/Travel.java">
+    <entry file="file://$PROJECT_DIR$/ex2/src/SortTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="626">
+          <caret line="55" column="25" lean-forward="true" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
           <folding>
-            <element signature="method#Traveling#0;class#Traveling#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex2/src/Perm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="36" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex2/src/Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#selectionSort#0;class#Sort#0" expanded="false" />
-            <element signature="method#insertSort#0;class#Sort#0" expanded="false" />
-            <element signature="method#mergeSort#1;class#Sort#0" expanded="false" />
-            <element signature="method#mSort#0;class#Sort#0" expanded="false" />
-            <element signature="method#merge#0;class#Sort#0" expanded="false" />
-            <element signature="method#copy#0;class#Sort#0" expanded="false" />
-            <element signature="method#kthSelect#0;class#Sort#0" expanded="false" />
-            <element signature="method#kthMaxSelect#0;class#Sort#0" expanded="false" />
-            <element signature="method#randomizedPartition#0;class#Sort#0" expanded="false" />
-            <element signature="method#swap#0;class#Sort#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex2/src/Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7153">
-          <caret line="311" column="34" lean-forward="false" selection-start-line="311" selection-start-column="34" selection-end-line="311" selection-end-column="34" />
-          <folding>
-            <element signature="method#selectionSort#0;class#Sort#0" expanded="false" />
-            <element signature="method#insertSort#0;class#Sort#0" expanded="false" />
-            <element signature="method#mergeSort#1;class#Sort#0" expanded="false" />
-            <element signature="method#mSort#0;class#Sort#0" expanded="false" />
-            <element signature="method#merge#0;class#Sort#0" expanded="false" />
-            <element signature="method#copy#0;class#Sort#0" expanded="false" />
-            <element signature="method#kthSelect#0;class#Sort#0" expanded="false" />
-            <element signature="method#kthMaxSelect#0;class#Sort#0" expanded="false" />
-            <element signature="method#randomizedPartition#0;class#Sort#0" expanded="false" />
-            <element signature="method#swap#0;class#Sort#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex2/src/SortTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="79" lean-forward="false" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#before#0;class#SortTest#0" expanded="false" />
-            <element signature="method#after#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#testSelectionSort#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#testBubbleSort#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#testInsertSort#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#testMergeSort#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#testQuickSort#0;class#SortTest#0" expanded="false" />
-            <element signature="method#reverse#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#outputArray#0;class#SortTest#0" expanded="false" />
-            <element signature="method#outputArray#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#generateTestArray#0;class#SortTest#0" expanded="false" />
-            <element signature="method#generateTestArray#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#generateExpectedArray#0;class#SortTest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex2/src/Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4876">
-          <caret line="311" column="34" lean-forward="false" selection-start-line="311" selection-start-column="34" selection-end-line="311" selection-end-column="34" />
-          <folding>
-            <element signature="method#selectionSort#0;class#Sort#0" expanded="false" />
-            <element signature="method#insertSort#0;class#Sort#0" expanded="false" />
-            <element signature="method#mergeSort#1;class#Sort#0" expanded="false" />
-            <element signature="method#mSort#0;class#Sort#0" expanded="false" />
-            <element signature="method#merge#0;class#Sort#0" expanded="false" />
-            <element signature="method#copy#0;class#Sort#0" expanded="false" />
-            <element signature="method#kthSelect#0;class#Sort#0" expanded="false" />
-            <element signature="method#kthMaxSelect#0;class#Sort#0" expanded="false" />
-            <element signature="method#randomizedPartition#0;class#Sort#0" expanded="false" />
-            <element signature="method#swap#0;class#Sort#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex2/src/SortTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1081">
-          <caret line="64" column="16" lean-forward="false" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#before#0;class#SortTest#0" expanded="false" />
-            <element signature="method#after#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#testSelectionSort#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#testBubbleSort#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#testInsertSort#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#testMergeSort#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#testQuickSort#0;class#SortTest#0" expanded="false" />
-            <element signature="method#reverse#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#outputArray#0;class#SortTest#0" expanded="false" />
-            <element signature="method#outputArray#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#generateTestArray#0;class#SortTest#0" expanded="false" />
-            <element signature="method#generateTestArray#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#generateExpectedArray#0;class#SortTest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex2/src/Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4876">
-          <caret line="311" column="34" lean-forward="false" selection-start-line="311" selection-start-column="34" selection-end-line="311" selection-end-column="34" />
-          <folding>
-            <element signature="method#selectionSort#0;class#Sort#0" expanded="false" />
-            <element signature="method#insertSort#0;class#Sort#0" expanded="false" />
-            <element signature="method#mergeSort#1;class#Sort#0" expanded="false" />
-            <element signature="method#mSort#0;class#Sort#0" expanded="false" />
-            <element signature="method#merge#0;class#Sort#0" expanded="false" />
-            <element signature="method#copy#0;class#Sort#0" expanded="false" />
-            <element signature="method#kthSelect#0;class#Sort#0" expanded="false" />
-            <element signature="method#kthMaxSelect#0;class#Sort#0" expanded="false" />
-            <element signature="method#randomizedPartition#0;class#Sort#0" expanded="false" />
-            <element signature="method#swap#0;class#Sort#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex2/src/SortTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#before#0;class#SortTest#0" expanded="false" />
-            <element signature="method#after#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#testSelectionSort#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#testBubbleSort#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#testInsertSort#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#testMergeSort#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#testQuickSort#0;class#SortTest#0" expanded="false" />
-            <element signature="method#reverse#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#outputArray#0;class#SortTest#0" expanded="false" />
-            <element signature="method#outputArray#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#generateTestArray#0;class#SortTest#0" expanded="false" />
-            <element signature="method#generateTestArray#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#generateExpectedArray#0;class#SortTest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex2/src/Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4876">
-          <caret line="311" column="34" lean-forward="false" selection-start-line="311" selection-start-column="34" selection-end-line="311" selection-end-column="34" />
-          <folding>
-            <element signature="method#selectionSort#0;class#Sort#0" expanded="false" />
-            <element signature="method#insertSort#0;class#Sort#0" expanded="false" />
-            <element signature="method#mergeSort#1;class#Sort#0" expanded="false" />
-            <element signature="method#mSort#0;class#Sort#0" expanded="false" />
-            <element signature="method#merge#0;class#Sort#0" expanded="false" />
-            <element signature="method#copy#0;class#Sort#0" expanded="false" />
-            <element signature="method#kthSelect#0;class#Sort#0" expanded="false" />
-            <element signature="method#kthMaxSelect#0;class#Sort#0" expanded="false" />
-            <element signature="method#randomizedPartition#0;class#Sort#0" expanded="false" />
-            <element signature="method#swap#0;class#Sort#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex2/src/SortTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="82" column="16" lean-forward="false" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#before#0;class#SortTest#0" expanded="false" />
-            <element signature="method#after#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#testSelectionSort#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#testBubbleSort#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#testInsertSort#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#testMergeSort#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#testQuickSort#0;class#SortTest#0" expanded="false" />
-            <element signature="method#reverse#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#outputArray#0;class#SortTest#0" expanded="false" />
-            <element signature="method#outputArray#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#generateTestArray#0;class#SortTest#0" expanded="false" />
-            <element signature="method#generateTestArray#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#generateExpectedArray#0;class#SortTest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex2/src/Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#selectionSort#0;class#Sort#0" expanded="false" />
-            <element signature="method#insertSort#0;class#Sort#0" expanded="false" />
-            <element signature="method#mergeSort#1;class#Sort#0" expanded="false" />
-            <element signature="method#mSort#0;class#Sort#0" expanded="false" />
-            <element signature="method#merge#0;class#Sort#0" expanded="false" />
-            <element signature="method#copy#0;class#Sort#0" expanded="false" />
-            <element signature="method#kthSelect#0;class#Sort#0" expanded="false" />
-            <element signature="method#kthMaxSelect#0;class#Sort#0" expanded="false" />
-            <element signature="method#randomizedPartition#0;class#Sort#0" expanded="false" />
-            <element signature="method#swap#0;class#Sort#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex2/src/SortTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1702">
-          <caret line="103" column="42" lean-forward="false" selection-start-line="103" selection-start-column="42" selection-end-line="103" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#before#0;class#SortTest#0" expanded="false" />
-            <element signature="method#after#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#testSelectionSort#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#testBubbleSort#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#testInsertSort#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#testMergeSort#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#testQuickSort#0;class#SortTest#0" expanded="false" />
-            <element signature="method#reverse#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#outputArray#0;class#SortTest#0" expanded="false" />
-            <element signature="method#outputArray#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#generateTestArray#0;class#SortTest#0" expanded="false" />
-            <element signature="method#generateTestArray#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#generateExpectedArray#0;class#SortTest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex2/src/Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7199">
-          <caret line="313" column="0" lean-forward="false" selection-start-line="313" selection-start-column="0" selection-end-line="321" selection-end-column="5" />
-          <folding>
-            <element signature="method#selectionSort#0;class#Sort#0" expanded="false" />
-            <element signature="method#insertSort#0;class#Sort#0" expanded="false" />
-            <element signature="method#mergeSort#1;class#Sort#0" expanded="false" />
-            <element signature="method#mSort#0;class#Sort#0" expanded="false" />
-            <element signature="method#merge#0;class#Sort#0" expanded="false" />
-            <element signature="method#copy#0;class#Sort#0" expanded="false" />
-            <element signature="method#kthSelect#0;class#Sort#0" expanded="false" />
-            <element signature="method#kthMaxSelect#0;class#Sort#0" expanded="false" />
-            <element signature="method#randomizedPartition#0;class#Sort#0" expanded="false" />
-            <element signature="method#swap#0;class#Sort#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex2/src/SortTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="61" column="26" lean-forward="true" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#before#0;class#SortTest#0" expanded="false" />
-            <element signature="method#after#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#testSelectionSort#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#testBubbleSort#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#testInsertSort#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#testMergeSort#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#testQuickSort#0;class#SortTest#0" expanded="false" />
-            <element signature="method#reverse#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#outputArray#0;class#SortTest#0" expanded="false" />
-            <element signature="method#outputArray#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#generateTestArray#0;class#SortTest#0" expanded="false" />
-            <element signature="method#generateTestArray#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#generateExpectedArray#0;class#SortTest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex2/src/Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#selectionSort#0;class#Sort#0" expanded="false" />
-            <element signature="method#insertSort#0;class#Sort#0" expanded="false" />
-            <element signature="method#mergeSort#1;class#Sort#0" expanded="false" />
-            <element signature="method#mSort#0;class#Sort#0" expanded="false" />
-            <element signature="method#merge#0;class#Sort#0" expanded="false" />
-            <element signature="method#copy#0;class#Sort#0" expanded="false" />
-            <element signature="method#kthSelect#0;class#Sort#0" expanded="false" />
-            <element signature="method#kthMaxSelect#0;class#Sort#0" expanded="false" />
-            <element signature="method#randomizedPartition#0;class#Sort#0" expanded="false" />
-            <element signature="method#swap#0;class#Sort#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex3/src/Load.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex3/src/ShortPath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex3/src/Knapsack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex3/src/Knapsack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex3/src/PicCompress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex2/src/Search.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex2/src/Search.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex2/src/Search.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex2/src/Search.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2737">
-          <caret line="119" column="17" lean-forward="false" selection-start-line="119" selection-start-column="17" selection-end-line="119" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex2/src/IntegerPartition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex2/src/Search.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex1/src/ClosesPoints.java" />
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex1/ex1.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex2/src/IntegerPartition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex2/src/Search.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="102" column="30" lean-forward="false" selection-start-line="102" selection-start-column="30" selection-end-line="102" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex1/src/MyStringMatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-438">
-          <caret line="40" column="40" lean-forward="false" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex1/src/MyPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex1/src/MyComputer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1903">
-          <caret line="83" column="43" lean-forward="false" selection-start-line="83" selection-start-column="43" selection-end-line="83" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex1/src/ChosePoints.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-47">
-          <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex3/src/Investment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex3/src/Knapsack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex3/src/MatrixChain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2185">
-          <caret line="95" column="44" lean-forward="false" selection-start-line="95" selection-start-column="44" selection-end-line="95" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex1/src/Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="84" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex2/src/test/sort/Sort.java" />
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex3/src/PicCompress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="804">
-          <caret line="137" column="1" lean-forward="true" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex3/src/Load.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="125" column="42" lean-forward="false" selection-start-line="125" selection-start-column="42" selection-end-line="125" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex3/src/Placing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex3/src/ShortPath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/util/DualPivotQuicksort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4067">
-          <caret line="200" column="24" lean-forward="false" selection-start-line="200" selection-start-column="24" selection-end-line="200" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="75" column="18" lean-forward="true" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex2/src/SortTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="282" column="16" lean-forward="true" selection-start-line="282" selection-start-column="16" selection-end-line="282" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#before#0;class#SortTest#0" expanded="false" />
-            <element signature="method#after#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#testSelectionSort#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#testBubbleSort#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#testInsertSort#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#testMergeSort#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#testQuickSort#0;class#SortTest#0" expanded="false" />
-            <element signature="method#reverse#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#outputArray#0;class#SortTest#0" expanded="false" />
-            <element signature="method#outputArray#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#generateTestArray#0;class#SortTest#0" expanded="false" />
-            <element signature="method#generateTestArray#0;class#SortTest#0" expanded="false" />
-            <element signature="docComment;method#generateExpectedArray#0;class#SortTest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex2/src/Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#selectionSort#0;class#Sort#0" expanded="false" />
-            <element signature="method#insertSort#0;class#Sort#0" expanded="false" />
-            <element signature="method#mergeSort#1;class#Sort#0" expanded="false" />
-            <element signature="method#mSort#0;class#Sort#0" expanded="false" />
-            <element signature="method#merge#0;class#Sort#0" expanded="false" />
-            <element signature="method#copy#0;class#Sort#0" expanded="false" />
-            <element signature="method#kthSelect#0;class#Sort#0" expanded="false" />
-            <element signature="method#kthMaxSelect#0;class#Sort#0" expanded="false" />
-            <element signature="method#randomizedPartition#0;class#Sort#0" expanded="false" />
-            <element signature="method#swap#0;class#Sort#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex2/src/Perm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Algorithm/ex3/src/Travel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="643">
-          <caret line="102" column="23" lean-forward="false" selection-start-line="102" selection-start-column="23" selection-end-line="102" selection-end-column="23" />
-          <folding>
-            <element signature="method#Traveling#0;class#Traveling#0" expanded="false" />
+            <element signature="docComment;class#SortTest#0" expanded="true" />
+            <element signature="e#377#430#0" expanded="true" />
+            <element signature="docComment;method#testSelectionSort#0;class#SortTest#0" expanded="true" />
+            <element signature="docComment;method#testBubbleSort#0;class#SortTest#0" expanded="true" />
+            <element signature="docComment;method#testInsertSort#0;class#SortTest#0" expanded="true" />
+            <element signature="docComment;method#testMergeSort#0;class#SortTest#0" expanded="true" />
+            <element signature="docComment;method#testQuickSort#0;class#SortTest#0" expanded="true" />
+            <element signature="docComment;method#testRandomArray#0;class#SortTest#0" expanded="true" />
+            <element signature="docComment;method#testSortedArray#0;class#SortTest#0" expanded="true" />
+            <element signature="docComment;method#testReversedArray#0;class#SortTest#0" expanded="true" />
+            <element signature="docComment;method#reverse#0;class#SortTest#0" expanded="true" />
+            <element signature="docComment;method#testArray#0;class#SortTest#0" expanded="true" />
+            <marker date="1513828701515" expanded="false" signature="6622:6698" ph="/**...*/" />
+            <marker date="1513828701515" expanded="false" signature="6865:7070" ph="/**...*/" />
+            <marker date="1513828701515" expanded="false" signature="7318:7448" ph="/**...*/" />
           </folding>
         </state>
       </provider>
@@ -1150,80 +318,9 @@
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>ex1</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
+          <last-edited>1.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

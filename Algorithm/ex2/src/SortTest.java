@@ -12,7 +12,7 @@ import static org.junit.Assert.assertArrayEquals;
  *
  * @author Hanxy
  * @version 1.0.2
- * @since <pre>Ê®¶şÔÂ 9, 2017</pre>
+ * @since <pre>åäºŒæœˆ 9, 2017</pre>
  */
 public class SortTest {
 
@@ -42,7 +42,7 @@ public class SortTest {
     @Test
     public void testSelectionSort() throws Exception {
 //TODO: Test goes here...
-        System.out.println("²âÊÔÑ¡ÔñÅÅĞò");
+        System.out.println("æµ‹è¯•é€‰æ‹©æ’åº");
         testRandomArray(SELECTION_FLAG);
         testSortedArray(SELECTION_FLAG);
         testReversedArray(SELECTION_FLAG);
@@ -55,7 +55,7 @@ public class SortTest {
     public void testBubbleSort() throws Exception {
 //TODO: Test goes here...
 
-        System.out.println("²âÊÔÃ°ÅİÅÅĞò");
+        System.out.println("æµ‹è¯•å†’æ³¡æ’åº");
         testRandomArray(BUBBLE_FLAG);
         testSortedArray(BUBBLE_FLAG);
         testReversedArray(BUBBLE_FLAG);
@@ -67,7 +67,7 @@ public class SortTest {
     @Test
     public void testInsertSort() throws Exception {
 //TODO: Test goes here...
-        System.out.println("²âÊÔ²åÈëÅÅĞò");
+        System.out.println("æµ‹è¯•æ’å…¥æ’åº");
         testRandomArray(INSERT_FLAG);
         testSortedArray(INSERT_FLAG);
         testReversedArray(INSERT_FLAG);
@@ -79,7 +79,7 @@ public class SortTest {
     @Test
     public void testMergeSort() throws Exception {
 //TODO: Test goes here...
-        System.out.println("²âÊÔ¹é²¢ÅÅĞò");
+        System.out.println("æµ‹è¯•å½’å¹¶æ’åº");
         testRandomArray(MERGE_FLAG);
         testSortedArray(MERGE_FLAG);
         testReversedArray(MERGE_FLAG);
@@ -91,104 +91,104 @@ public class SortTest {
     @Test
     public void testQuickSort() throws Exception {
 //TODO: Test goes here...
-        System.out.println("²âÊÔ¿ìËÙÅÅĞò");
+        System.out.println("æµ‹è¯•å¿«é€Ÿæ’åº");
         testRandomArray(QUICK_FLAG);
         testSortedArray(QUICK_FLAG);
         testReversedArray(QUICK_FLAG);
     }
 
     /**
-     * ¸ù¾İ²»Í¬Ëã·¨²âÊÔËæ»úÊı×éÅÅĞòÊ±¼ä
+     * æ ¹æ®ä¸åŒç®—æ³•æµ‹è¯•éšæœºæ•°ç»„æ’åºæ—¶é—´
      *
-     * @param flag Ëã·¨±êÖ¾
+     * @param flag ç®—æ³•æ ‡å¿—
      */
     private void testRandomArray(int flag) {
         long runingTime = 0;
 
-        /********************²âÊÔËæ»úÊı×é**********************/
-        System.out.println("²âÊÔËæ»úÊı×é");
+        /********************æµ‹è¯•éšæœºæ•°ç»„**********************/
+        System.out.println("æµ‹è¯•éšæœºæ•°ç»„");
         for (int i = 0; i < arraysLength.length; i++) {
             int length = arraysLength[i];
 
-            System.out.println("²âÊÔ³¤¶ÈÎª" + length + "µÄÊı×é");
-            System.out.println("Ëæ»úÉú³É²âÊÔÊı×é...");
+            System.out.println("æµ‹è¯•é•¿åº¦ä¸º" + length + "çš„æ•°ç»„");
+            System.out.println("éšæœºç”Ÿæˆæµ‹è¯•æ•°ç»„...");
             int[] a = generateTestArray(length, MAX_VALUE);
-            System.out.println("³É¹¦Éú³É²âÊÔÊı×é");
-            System.out.println("Éú³ÉÔ¤ÆÚ½á¹ûÊı×é...");
+            System.out.println("æˆåŠŸç”Ÿæˆæµ‹è¯•æ•°ç»„");
+            System.out.println("ç”Ÿæˆé¢„æœŸç»“æœæ•°ç»„...");
             int[] b = generateExpectedArray(a);
-            System.out.println("³É¹¦Éú³ÉÔ¤ÆÚ½á¹ûÊı×é");
+            System.out.println("æˆåŠŸç”Ÿæˆé¢„æœŸç»“æœæ•°ç»„");
 
-            System.out.println("Ö´ĞĞÅÅĞò");
+            System.out.println("æ‰§è¡Œæ’åº");
 
             runingTime = testArray(a, flag);
             assertArrayEquals(b, a);
-            System.out.println("ËùÓÃÊ±¼äÎª£º" + runingTime + "ns");
+            System.out.println("æ‰€ç”¨æ—¶é—´ä¸ºï¼š" + runingTime + "ns");
         }
     }
 
     /**
-     * ¸ù¾İ²»Í¬Ëã·¨²âÊÔË³ĞòÊı×éÅÅĞòÊ±¼ä
+     * æ ¹æ®ä¸åŒç®—æ³•æµ‹è¯•é¡ºåºæ•°ç»„æ’åºæ—¶é—´
      *
-     * @param flag Ëã·¨±êÖ¾
+     * @param flag ç®—æ³•æ ‡å¿—
      */
     private void testSortedArray(int flag){
         long runingTime = 0;
 
-        /********************²âÊÔË³ĞòÊı×é**********************/
-        System.out.println("²âÊÔË³ĞòÊı×é");
+        /********************æµ‹è¯•é¡ºåºæ•°ç»„**********************/
+        System.out.println("æµ‹è¯•é¡ºåºæ•°ç»„");
         for (int i = 0; i < arraysLength.length; i++) {
             int length = arraysLength[i];
 
-            System.out.println("²âÊÔ³¤¶ÈÎª" + length + "µÄÊı×é");
-            System.out.println("Éú³ÉË³Ğò²âÊÔÊı×é...");
+            System.out.println("æµ‹è¯•é•¿åº¦ä¸º" + length + "çš„æ•°ç»„");
+            System.out.println("ç”Ÿæˆé¡ºåºæµ‹è¯•æ•°ç»„...");
             int[] a = generateTestArray(length, MAX_VALUE);
             Arrays.sort(a);
-            System.out.println("³É¹¦Éú³É²âÊÔÊı×é");
-            System.out.println("Éú³ÉÔ¤ÆÚ½á¹ûÊı×é...");
+            System.out.println("æˆåŠŸç”Ÿæˆæµ‹è¯•æ•°ç»„");
+            System.out.println("ç”Ÿæˆé¢„æœŸç»“æœæ•°ç»„...");
             int[] b = generateExpectedArray(a);
-            System.out.println("³É¹¦Éú³ÉÔ¤ÆÚ½á¹ûÊı×é");
+            System.out.println("æˆåŠŸç”Ÿæˆé¢„æœŸç»“æœæ•°ç»„");
 
-            System.out.println("Ö´ĞĞÅÅĞò");
+            System.out.println("æ‰§è¡Œæ’åº");
 
             runingTime = testArray(a, flag);
             assertArrayEquals(b, a);
-            System.out.println("ËùÓÃÊ±¼äÎª£º" + runingTime + "ns");
+            System.out.println("æ‰€ç”¨æ—¶é—´ä¸ºï¼š" + runingTime + "ns");
         }
     }
 
     /**
-     * ¸ù¾İ²»Í¬Ëã·¨²âÊÔÄæĞòÊı×éÅÅĞòÊ±¼ä
+     * æ ¹æ®ä¸åŒç®—æ³•æµ‹è¯•é€†åºæ•°ç»„æ’åºæ—¶é—´
      *
-     * @param flag Ëã·¨±êÖ¾
+     * @param flag ç®—æ³•æ ‡å¿—
      */
     private void testReversedArray(int flag){
         long runingTime = 0;
 
-        /********************²âÊÔÄæĞòÊı×é**********************/
-        System.out.println("²âÊÔÄæĞòÊı×é");
+        /********************æµ‹è¯•é€†åºæ•°ç»„**********************/
+        System.out.println("æµ‹è¯•é€†åºæ•°ç»„");
         for (int i = 0; i < arraysLength.length; i++) {
             int length = arraysLength[i];
 
-            System.out.println("²âÊÔ³¤¶ÈÎª" + length + "µÄÊı×é");
-            System.out.println("Éú³ÉÄæĞò²âÊÔÊı×é...");
+            System.out.println("æµ‹è¯•é•¿åº¦ä¸º" + length + "çš„æ•°ç»„");
+            System.out.println("ç”Ÿæˆé€†åºæµ‹è¯•æ•°ç»„...");
             int[] a = generateTestArray(length, MAX_VALUE);
             Arrays.sort(a);
             reverse(a);
-            System.out.println("³É¹¦Éú³É²âÊÔÊı×é");
-            System.out.println("Éú³ÉÔ¤ÆÚ½á¹ûÊı×é...");
+            System.out.println("æˆåŠŸç”Ÿæˆæµ‹è¯•æ•°ç»„");
+            System.out.println("ç”Ÿæˆé¢„æœŸç»“æœæ•°ç»„...");
             int[] b = generateExpectedArray(a);
-            System.out.println("³É¹¦Éú³ÉÔ¤ÆÚ½á¹ûÊı×é");
-            System.out.println("Ö´ĞĞÅÅĞò");
+            System.out.println("æˆåŠŸç”Ÿæˆé¢„æœŸç»“æœæ•°ç»„");
+            System.out.println("æ‰§è¡Œæ’åº");
             runingTime = testArray(a, flag);
             assertArrayEquals(b, a);
-            System.out.println("ËùÓÃÊ±¼äÎª£º" + runingTime + "ns");
+            System.out.println("æ‰€ç”¨æ—¶é—´ä¸ºï¼š" + runingTime + "ns");
         }
     }
 
     /**
-     * Ê¹Êı×éÄæĞò
+     * ä½¿æ•°ç»„é€†åº
      *
-     * @param a Êı×é
+     * @param a æ•°ç»„
      */
     private void reverse(int[] a){
 
@@ -199,11 +199,11 @@ public class SortTest {
     }
 
     /**
-     * ¸ù¾İ²»Í¬Ëã·¨²âÊÔÊı×éÅÅĞòÊ±¼ä
+     * æ ¹æ®ä¸åŒç®—æ³•æµ‹è¯•æ•°ç»„æ’åºæ—¶é—´
      *
-     * @param a ²âÊÔÊı×é
-     * @param flag Ëã·¨±êÖ¾
-     * @return ÅÅĞòÊ±¼ä
+     * @param a æµ‹è¯•æ•°ç»„
+     * @param flag ç®—æ³•æ ‡å¿—
+     * @return æ’åºæ—¶é—´
      */
     private long testArray(int[] a, int flag) {
         long startTime = 0;
@@ -236,7 +236,7 @@ public class SortTest {
                 endTime = System.nanoTime();
                 break;
             default:
-                System.err.println("´íÎóµÄÅÅĞò·½·¨");
+                System.err.println("é”™è¯¯çš„æ’åºæ–¹æ³•");
                 return 0;
         }
         return endTime - startTime;
