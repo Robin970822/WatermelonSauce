@@ -10,19 +10,114 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Algorithm$MatrixCost.coverage" NAME="MatrixCost Coverage Results" MODIFIED="1514470001703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="DockManager">
+    <window id="4">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="MatrixPath.java" pinned="false" current-in-tab="true">
+              <entry file="file://$USER_HOME$/Desktop/src/MatrixPath.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="388">
+                    <caret line="158" column="19" lean-forward="true" selection-start-line="158" selection-start-column="19" selection-end-line="158" selection-end-column="19" />
+                    <folding>
+                      <element signature="docComment;field#bestp#0;class#MatrixPath#0" expanded="true" />
+                      <element signature="method#dfs#0;class#MatrixPath#0" expanded="false" />
+                      <element signature="e#3629#3924#0" expanded="true" />
+                      <element signature="e#3923#3924#0" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="BranchBound.java" pinned="false" current-in-tab="false">
+              <entry file="file://$USER_HOME$/Desktop/three/BranchBound.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="-23">
+                    <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SortTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ex2/src/SortTest.java">
+      <file leaf-file-name="MatrixCost.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ex3/src/MatrixCost.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-46">
-              <caret line="55" column="25" lean-forward="false" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
-              <folding />
+            <state relative-caret-position="405">
+              <caret line="501" column="0" lean-forward="false" selection-start-line="501" selection-start-column="0" selection-end-line="501" selection-end-column="32" />
+              <folding>
+                <element signature="docComment;field#size#0;class#MatrixCost#0" expanded="true" />
+                <element signature="docComment;field#Matrix#0;class#MatrixCost#0" expanded="true" />
+                <element signature="docComment;field#cost#0;class#MatrixCost#0" expanded="true" />
+                <element signature="docComment;field#backtrack#0;class#MatrixCost#0" expanded="true" />
+                <element signature="docComment;field#bestPath#0;class#MatrixCost#0" expanded="true" />
+                <element signature="docComment;field#currentPath#0;class#MatrixCost#0" expanded="true" />
+                <element signature="docComment;field#bestCost#0;class#MatrixCost#0" expanded="true" />
+                <element signature="docComment;field#currentCost#0;class#MatrixCost#0" expanded="true" />
+                <element signature="docComment;field#minCost#0;class#MatrixCost#0" expanded="true" />
+                <element signature="docComment;field#fromUp#0;class#MatrixCost#0" expanded="true" />
+                <element signature="docComment;field#Max#0;class#MatrixCost#0" expanded="true" />
+                <element signature="method#MatrixCost#0;class#MatrixCost#0" expanded="false" />
+                <element signature="method#dividedCost#0;class#MatrixCost#0" expanded="false" />
+                <element signature="method#dynamicCost#0;class#MatrixCost#0" expanded="false" />
+                <element signature="method#greedyCost#0;class#MatrixCost#0" expanded="false" />
+                <element signature="method#minCost#0;class#MatrixCost#0" expanded="false" />
+                <element signature="method#dividedCost#1;class#MatrixCost#0" expanded="false" />
+                <element signature="method#dynamicCost#1;class#MatrixCost#0" expanded="false" />
+                <element signature="method#greedyCost#1;class#MatrixCost#0" expanded="false" />
+                <element signature="docComment;method#backtrackCost#1;class#MatrixCost#0" expanded="true" />
+                <element signature="method#backtrackCost#1;class#MatrixCost#0" expanded="false" />
+                <element signature="docComment;method#branchCost#1;class#MatrixCost#0" expanded="true" />
+                <element signature="e#11433#11719#0" expanded="true" />
+                <element signature="e#11718#11719#0" expanded="true" />
+                <element signature="method#outputPath#0;class#MatrixCost#0" expanded="false" />
+                <element signature="method#outputBestPath#0;class#MatrixCost#0" expanded="false" />
+                <element signature="method#pointString#0;class#MatrixCost#0" expanded="false" />
+                <element signature="e#14184#14207#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Strategy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ex3/src/Strategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="758">
+              <caret line="59" column="23" lean-forward="false" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
+              <folding>
+                <element signature="docComment;field#cost#0;class#Strategy#0" expanded="true" />
+                <element signature="docComment;field#minCost#0;class#Strategy#0" expanded="true" />
+                <element signature="docComment;field#previous#0;class#Strategy#0" expanded="true" />
+                <element signature="docComment;field#x#0;class#Strategy#0" expanded="true" />
+                <element signature="docComment;field#y#0;class#Strategy#0" expanded="true" />
+                <element signature="method#getCost#0;class#Strategy#0" expanded="true" />
+                <element signature="method#getPrevious#0;class#Strategy#0" expanded="true" />
+                <element signature="method#setPrevious#0;class#Strategy#0" expanded="true" />
+                <element signature="method#getX#0;class#Strategy#0" expanded="true" />
+                <element signature="method#getY#0;class#Strategy#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -33,6 +128,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ex2/src/SortTest.java" />
+        <option value="$PROJECT_DIR$/ex3/src/Knapsack.java" />
+        <option value="$PROJECT_DIR$/ex3/src/Placing.java" />
+        <option value="$PROJECT_DIR$/ex3/src/Strategy.java" />
+        <option value="$PROJECT_DIR$/ex3/src/MatrixCost.java" />
       </list>
     </option>
   </component>
@@ -43,10 +142,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="483" />
-    <option name="y" value="7" />
-    <option name="width" value="1743" />
-    <option name="height" value="1102" />
+    <option name="x" value="121" />
+    <option name="y" value="43" />
+    <option name="width" value="1616" />
+    <option name="height" value="990" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -63,20 +162,95 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Algorithm" type="1abcf292:AndroidViewProjectNode" />
+              <item name="ex1" type="1039202d:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="1abcf292:AndroidViewProjectNode" />
+              <item name="ex1" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="1abcf292:AndroidViewProjectNode" />
+              <item name="ex2" type="1039202d:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="1abcf292:AndroidViewProjectNode" />
+              <item name="ex2" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Production">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="ex1" type="cbb8eebc:String" user="ex1" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="ex1" type="cbb8eebc:String" user="ex1" />
+              <item name="ex1" type="cbb8eebc:String" user="ex1" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="ex1" type="cbb8eebc:String" user="ex1" />
+              <item name="ex1" type="cbb8eebc:String" user="ex1" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="ex2" type="cbb8eebc:String" user="ex2" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="ex2" type="cbb8eebc:String" user="ex2" />
+              <item name="ex2" type="cbb8eebc:String" user="ex2" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="ex2" type="cbb8eebc:String" user="ex2" />
+              <item name="ex2" type="cbb8eebc:String" user="ex2" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="ex3" type="cbb8eebc:String" user="ex3" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="ex3" type="cbb8eebc:String" user="ex3" />
+              <item name="ex3" type="cbb8eebc:String" user="ex3" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="ex3" type="cbb8eebc:String" user="ex3" />
+              <item name="ex3" type="cbb8eebc:String" user="ex3" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ex2" type="462c0819:PsiDirectoryNode" />
+              <item name="ex3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ex2" type="462c0819:PsiDirectoryNode" />
+              <item name="ex3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -90,6 +264,7 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://F:/GitHub/WatermelonSauce/Algorithm/ex3/src/Placing.java" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -103,46 +278,76 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SortTest.testMergeSort">
-    <configuration name="SortTest.testMergeSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.MatrixCost">
+    <configuration name="Investment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="ex2" />
+      <option name="MAIN_CLASS_NAME" value="Investment" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SortTest" />
-      <option name="METHOD_NAME" value="testMergeSort" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
+      <module name="ex3" />
       <envs />
-      <patterns />
     </configuration>
-    <configuration name="SortTest.testSelectionSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Knapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="ex2" />
+      <option name="MAIN_CLASS_NAME" value="Knapsack" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SortTest" />
-      <option name="METHOD_NAME" value="testSelectionSort" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
+      <module name="ex3" />
       <envs />
-      <patterns />
+    </configuration>
+    <configuration name="Load" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Load" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ex3" />
+      <envs />
+    </configuration>
+    <configuration name="MatrixCost" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="MatrixCost" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ex3" />
+      <envs />
+    </configuration>
+    <configuration name="Placing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Placing" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ex3" />
+      <envs />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
@@ -225,19 +430,28 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.SortTest.testSelectionSort" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.SortTest.testMergeSort" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.MatrixCost" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Investment" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Knapsack" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Placing" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Load" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SortTest.testMergeSort" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SortTest.testSelectionSort" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.MatrixCost" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Load" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Placing" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Knapsack" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Investment" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -250,7 +464,11 @@
       <workItem from="1513939186449" duration="59000" />
       <workItem from="1513993525526" duration="610000" />
       <workItem from="1514009353954" duration="19000" />
-      <workItem from="1514021677896" duration="51000" />
+      <workItem from="1514021677896" duration="172000" />
+      <workItem from="1514255393093" duration="402000" />
+      <workItem from="1514272083294" duration="6000" />
+      <workItem from="1514428065220" duration="971000" />
+      <workItem from="1514433519822" duration="31863000" />
     </task>
     <servers />
   </component>
@@ -263,11 +481,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="853000" />
+    <option name="totallyTimeSpent" value="34216000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -278,22 +495,24 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3642384" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1359375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26601425" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.58719647" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -305,7 +524,67 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ex3/src/MatrixCost.java</url>
+          <line>140</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ex3/src/MatrixCost.java</url>
+          <line>141</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ex3/src/MatrixCost.java</url>
+          <line>330</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ex3/src/MatrixCost.java</url>
+          <line>337</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ex3/src/MatrixCost.java</url>
+          <line>342</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ex3/src/MatrixCost.java</url>
+          <line>338</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ex3/src/MatrixCost.java</url>
+          <line>347</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ex3/src/MatrixCost.java</url>
+          <line>352</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/ex3/src/MatrixCost.java</url>
+          <line>325</line>
+          <properties class="MatrixCost" method="branchCost">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="31" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -313,7 +592,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex3/src/ShortPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -321,7 +606,205 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-46">
           <caret line="55" column="25" lean-forward="false" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex1/src/MyComputer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex1/src/ChosePoints.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex3/src/Investment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-509">
+          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding>
+            <element signature="docComment;method#maxEarning#0;class#Investment#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex3/src/PicCompress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex3/src/MatrixChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-852">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex3/src/Travel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="106" column="13" lean-forward="false" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex3/src/Placing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="31" column="21" lean-forward="false" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/MinPathBacktrack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-690">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex3/src/Load.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300">
+          <caret line="88" column="19" lean-forward="false" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex3/src/Knapsack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2484">
+          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="docComment;method#maxLoadValue01#0;class#Knapsack#0" expanded="true" />
+            <element signature="docComment;method#traceback01#0;class#Knapsack#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/src/Plan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/算法实验三/Algorithm2/src/org/exam/BandB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/util/DualPivotQuicksort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding>
+            <element signature="docComment;field#MAX_RUN_COUNT#0;class#DualPivotQuicksort#0" expanded="false" />
+            <element signature="docComment;field#MAX_RUN_LENGTH#0;class#DualPivotQuicksort#0" expanded="false" />
+            <element signature="docComment;field#QUICKSORT_THRESHOLD#0;class#DualPivotQuicksort#0" expanded="false" />
+            <element signature="docComment;field#INSERTION_SORT_THRESHOLD#0;class#DualPivotQuicksort#0" expanded="false" />
+            <element signature="docComment;field#COUNTING_SORT_THRESHOLD_FOR_BYTE#0;class#DualPivotQuicksort#0" expanded="false" />
+            <element signature="docComment;field#COUNTING_SORT_THRESHOLD_FOR_SHORT_OR_CHAR#0;class#DualPivotQuicksort#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="100" column="19" lean-forward="false" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/three/BranchBound.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23">
+          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/src/MatrixPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="158" column="19" lean-forward="true" selection-start-line="158" selection-start-column="19" selection-end-line="158" selection-end-column="19" />
+          <folding>
+            <element signature="docComment;field#bestp#0;class#MatrixPath#0" expanded="true" />
+            <element signature="method#dfs#0;class#MatrixPath#0" expanded="false" />
+            <element signature="e#3629#3924#0" expanded="true" />
+            <element signature="e#3923#3924#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex3/src/Strategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="758">
+          <caret line="59" column="23" lean-forward="false" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
+          <folding>
+            <element signature="docComment;field#cost#0;class#Strategy#0" expanded="true" />
+            <element signature="docComment;field#minCost#0;class#Strategy#0" expanded="true" />
+            <element signature="docComment;field#previous#0;class#Strategy#0" expanded="true" />
+            <element signature="docComment;field#x#0;class#Strategy#0" expanded="true" />
+            <element signature="docComment;field#y#0;class#Strategy#0" expanded="true" />
+            <element signature="method#getCost#0;class#Strategy#0" expanded="true" />
+            <element signature="method#getPrevious#0;class#Strategy#0" expanded="true" />
+            <element signature="method#setPrevious#0;class#Strategy#0" expanded="true" />
+            <element signature="method#getX#0;class#Strategy#0" expanded="true" />
+            <element signature="method#getY#0;class#Strategy#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex3/src/MatrixCost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="501" column="0" lean-forward="false" selection-start-line="501" selection-start-column="0" selection-end-line="501" selection-end-column="32" />
+          <folding>
+            <element signature="docComment;field#size#0;class#MatrixCost#0" expanded="true" />
+            <element signature="docComment;field#Matrix#0;class#MatrixCost#0" expanded="true" />
+            <element signature="docComment;field#cost#0;class#MatrixCost#0" expanded="true" />
+            <element signature="docComment;field#backtrack#0;class#MatrixCost#0" expanded="true" />
+            <element signature="docComment;field#bestPath#0;class#MatrixCost#0" expanded="true" />
+            <element signature="docComment;field#currentPath#0;class#MatrixCost#0" expanded="true" />
+            <element signature="docComment;field#bestCost#0;class#MatrixCost#0" expanded="true" />
+            <element signature="docComment;field#currentCost#0;class#MatrixCost#0" expanded="true" />
+            <element signature="docComment;field#minCost#0;class#MatrixCost#0" expanded="true" />
+            <element signature="docComment;field#fromUp#0;class#MatrixCost#0" expanded="true" />
+            <element signature="docComment;field#Max#0;class#MatrixCost#0" expanded="true" />
+            <element signature="method#MatrixCost#0;class#MatrixCost#0" expanded="false" />
+            <element signature="method#dividedCost#0;class#MatrixCost#0" expanded="false" />
+            <element signature="method#dynamicCost#0;class#MatrixCost#0" expanded="false" />
+            <element signature="method#greedyCost#0;class#MatrixCost#0" expanded="false" />
+            <element signature="method#minCost#0;class#MatrixCost#0" expanded="false" />
+            <element signature="method#dividedCost#1;class#MatrixCost#0" expanded="false" />
+            <element signature="method#dynamicCost#1;class#MatrixCost#0" expanded="false" />
+            <element signature="method#greedyCost#1;class#MatrixCost#0" expanded="false" />
+            <element signature="docComment;method#backtrackCost#1;class#MatrixCost#0" expanded="true" />
+            <element signature="method#backtrackCost#1;class#MatrixCost#0" expanded="false" />
+            <element signature="docComment;method#branchCost#1;class#MatrixCost#0" expanded="true" />
+            <element signature="e#11433#11719#0" expanded="true" />
+            <element signature="e#11718#11719#0" expanded="true" />
+            <element signature="method#outputPath#0;class#MatrixCost#0" expanded="false" />
+            <element signature="method#outputBestPath#0;class#MatrixCost#0" expanded="false" />
+            <element signature="method#pointString#0;class#MatrixCost#0" expanded="false" />
+            <element signature="e#14184#14207#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
