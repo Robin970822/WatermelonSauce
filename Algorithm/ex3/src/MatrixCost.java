@@ -211,7 +211,6 @@ public class MatrixCost {
         return cost[i][j];
     }
 
-
     /**
      * 贪心法求(i,j)到(size-1,size-1)的数字和最小路径
      *
@@ -326,7 +325,7 @@ public class MatrixCost {
     private Strategy branchCost(int i, int j) {
         Strategy bestStrategy = new Strategy();
         Queue<Strategy> strategyQueue = new PriorityQueue<>(size * size, Comparator);
-        strategyQueue.add(new Strategy(i, j, Matrix[i][j], minCost));
+        strategyQueue.add(new Strategy(i, j, Matrix[i][j]));
 
         while (!strategyQueue.isEmpty()) {
             Strategy strategy = strategyQueue.poll();
@@ -341,13 +340,15 @@ public class MatrixCost {
                     bestStrategy = strategy;
                 }
             } else if (row >= size - 1) {//向下触底
-                Strategy temp = new Strategy(row,col + 1, cost + Matrix[row][col + 1],
-                        cost + minCost(row, col + 1));
+//                Strategy temp = new Strategy(row,col + 1, cost + Matrix[row][col + 1],
+//                        cost + minCost(row, col + 1));
+                Strategy temp = new Strategy(row,col + 1, cost + Matrix[row][col + 1]);
                 temp.setPrevious(strategy);
                 strategyQueue.add(temp);
             } else if (col >= size - 1) {//向右触底
-                Strategy temp = new Strategy(row + 1,col, cost + Matrix[row + 1][col],
-                        cost + minCost(row + 1, col));
+//                Strategy temp = new Strategy(row + 1,col, cost + Matrix[row + 1][col],
+//                        cost + minCost(row + 1, col));
+                Strategy temp = new Strategy(row + 1,col, cost + Matrix[row + 1][col]);
                 temp.setPrevious(strategy);
                 strategyQueue.add(temp);
             } else {
@@ -355,37 +356,47 @@ public class MatrixCost {
             向右的耗费以及下界耗费
              */
                 int rightCost = cost + Matrix[row][col + 1];
-                int minRightCost = cost + minCost(row, col + 1);
+//                int minRightCost = cost + minCost(row, col + 1);
 
             /*
             向下的耗费以及下界耗费
              */
                 int downCost = cost + Matrix[row + 1][col];
-                int minDownCost = cost + minCost(row + 1, col);
-
-                if (minDownCost <= minRightCost){//向下的下界耗费小于向右的下界耗费
-                    if (minDownCost < bestCost) {//向下的下界耗费小于当前最优耗费
-                        Strategy temp = new Strategy(row + 1, col, downCost, minDownCost);
-                        temp.setPrevious(strategy);
-                        strategyQueue.add(temp);
-                    }
-                    if (minRightCost < bestCost) {//向右的下界耗费小于当前最优耗费
-                        Strategy temp = new Strategy(row, col + 1, rightCost, minRightCost);
-                        temp.setPrevious(strategy);
-                        strategyQueue.add(temp);
-                    }
-                }else {
-                    if (minRightCost < bestCost) {//向右的下界耗费小于当前最优耗费
-                        Strategy temp = new Strategy(row, col + 1, rightCost, minRightCost);
-                        temp.setPrevious(strategy);
-                        strategyQueue.add(temp);
-                    }
-                    if (minDownCost < bestCost) {//向下的下界耗费小于当前最优耗费
-                        Strategy temp = new Strategy(row + 1, col, downCost, minDownCost);
-                        temp.setPrevious(strategy);
-                        strategyQueue.add(temp);
-                    }
+//                int minDownCost = cost + minCost(row + 1, col);
+                if (rightCost < bestCost){//向右的消耗小于当前最优耗费
+                    Strategy temp = new Strategy(row, col + 1, rightCost);
+                    temp.setPrevious(strategy);
+                    strategyQueue.add(temp);
                 }
+                if (downCost < bestCost) {//向下的耗费小于当前最优耗费
+                    Strategy temp = new Strategy(row + 1, col, downCost);
+                    temp.setPrevious(strategy);
+                    strategyQueue.add(temp);
+                }
+
+//                if (minDownCost <= minRightCost){//向下的下界耗费小于向右的下界耗费
+//                    if (minDownCost < bestCost) {//向下的下界耗费小于当前最优耗费
+//                        Strategy temp = new Strategy(row + 1, col, downCost, minDownCost);
+//                        temp.setPrevious(strategy);
+//                        strategyQueue.add(temp);
+//                    }
+//                    if (minRightCost < bestCost) {//向右的下界耗费小于当前最优耗费
+//                        Strategy temp = new Strategy(row, col + 1, rightCost, minRightCost);
+//                        temp.setPrevious(strategy);
+//                        strategyQueue.add(temp);
+//                    }
+//                }else {
+//                    if (minRightCost < bestCost) {//向右的下界耗费小于当前最优耗费
+//                        Strategy temp = new Strategy(row, col + 1, rightCost, minRightCost);
+//                        temp.setPrevious(strategy);
+//                        strategyQueue.add(temp);
+//                    }
+//                    if (minDownCost < bestCost) {//向下的下界耗费小于当前最优耗费
+//                        Strategy temp = new Strategy(row + 1, col, downCost, minDownCost);
+//                        temp.setPrevious(strategy);
+//                        strategyQueue.add(temp);
+//                    }
+//                }
             }
         }
 
@@ -395,9 +406,10 @@ public class MatrixCost {
     private static Comparator<Strategy> Comparator = new Comparator<Strategy>() {
         @Override
         public int compare(Strategy o1, Strategy o2) {
-            if(o1.getMinCost() - o1.getMinCost() == 0) {
-                return o1.getCost() - o2.getCost();
-            }else return o1.getMinCost() - o1.getMinCost();
+//            if(o2.getMinCost() - o1.getMinCost() == 0) {
+//                return o2.getCost() - o1.getCost();
+//            }else return o2.getMinCost() - o1.getMinCost();
+            return o2.getCost() - o1.getCost();
         }
     };
 
@@ -490,15 +502,15 @@ public class MatrixCost {
     }
 
     public static void main(String[] args) {
-        int size = 5;
-        int[][] Matrix = {{6, 3, 7, 1, 5}, {4, 3, 6, 3, 9}, {9, 6, 3, 3, 5},
-                {1, 3, 0, 0, 6}, {7, 7, 0, 2, 4}};
-//        int size = 3;
-//        int[][] Matrix = {{0, 3, 7}, {5, 2, 13}, {6, 10, 0}};
+//        int size = 5;
+//        int[][] Matrix = {{6, 3, 7, 1, 5}, {4, 3, 6, 3, 9}, {9, 6, 3, 3, 5},
+//                {1, 3, 0, 0, 6}, {7, 7, 0, 2, 4}};
+        int size = 3;
+        int[][] Matrix = {{2, 8, 1}, {2, 8, 2}, {4, 8, 5}};
         MatrixCost matrixCost = new MatrixCost(size, Matrix);
         matrixCost.minCost();
 //        matrixCost.dividedCost();
-        matrixCost.dynamicCost();
+//        matrixCost.dynamicCost();
         matrixCost.greedyCost();
 //        matrixCost.backtrackCost();
         matrixCost.branchCost();

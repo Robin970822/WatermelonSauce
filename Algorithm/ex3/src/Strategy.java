@@ -4,10 +4,10 @@ public class Strategy {
      * 消耗
      */
     private int cost;
-    /**
-     * 下界消耗
-     */
-    private int minCost;
+//    /**
+//     * 下界消耗
+//     */
+//    private int minCost;
     /**
      * 前一个节点
      */
@@ -21,11 +21,18 @@ public class Strategy {
      */
     private int y;
 
-    public Strategy(int x, int y, int cost, int minCost){
+//    public Strategy(int x, int y, int cost, int minCost){
+//        this.x = x;
+//        this.y = y;
+//        this.cost = cost;
+//        this.minCost = minCost;
+//        previous = null;
+//    }
+
+    public Strategy(int x, int y, int cost){
         this.x = x;
         this.y = y;
         this.cost = cost;
-        this.minCost = minCost;
         previous = null;
     }
 
@@ -56,7 +63,7 @@ public class Strategy {
         return y;
     }
 
-    public int getMinCost() {
-        return minCost;
-    }
+//    public int getMinCost() {
+//        return minCost;
+//    }
 }
