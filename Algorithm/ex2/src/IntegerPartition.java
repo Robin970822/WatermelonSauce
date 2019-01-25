@@ -17,7 +17,7 @@ public final class IntegerPartition {
 
     public static void main(String[] args) {
         int n = 6;
-        int m = 6;
+        int m = 5;
         System.out.println(partition(n, m));
     }
 }

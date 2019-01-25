@@ -1,7 +1,7 @@
 /**
  * This class use for common computing
  *
- * @author
+ * @author Hanxy
  */
 
 public final class MyComputer {

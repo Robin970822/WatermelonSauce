@@ -1,5 +1,5 @@
 /**
- * parmutation algorithm
+ * permutation algorithm
  *
  * @author luwei
  * @version 1.1
@@ -37,8 +37,8 @@ public final class Perm {
     }
 
     public static void main(String[] args) {
-        int[] list = new int[5];
-        for (int i = 0; i < 5; i++)
+        int[] list = new int[6];
+        for (int i = 0; i < 6; i++)
             list[i] = i;
         perm(list, 0, 4);
     }

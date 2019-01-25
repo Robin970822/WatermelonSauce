@@ -5,7 +5,7 @@ public class ShortPath {
     /**
      * @param e    邻接矩阵
      * @param v    源
-     * @param dist  最近距离
+     * @param dist 最近距离
      * @param preV 前驱顶点
      */
     public static void dijkstra(int[][] e, int v, int[] dist, int preV[]) {
@@ -25,7 +25,7 @@ public class ShortPath {
         for (int i = 0; i < vNum - 1; i++) {
             int temp = M;
             int u = v;
-            for (int j = 0; j < vNum; j++) {
+            for (int j = 0; j < vNum; j++) {//找到最短距离的顶点
                 if (!s[i] && dist[j] < temp) {
                     temp = dist[j];
                     u = j;
